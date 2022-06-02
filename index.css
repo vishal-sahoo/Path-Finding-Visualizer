@@ -1,0 +1,53 @@
+#grid-container {
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(20, 40px);
+    grid-template-rows: repeat(10, 40px);
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid;
+    grid-gap: 2px;
+    width: 60%;
+    justify-content: center;
+    align-content: start;
+  }
+  
+  .grid-item {
+    background-color: rgb(215, 199, 237);
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .road-block {
+    background-color: rgb(168, 104, 50);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #topbar {
+    margin-left: 39%;
+    margin-right: 30%;
+  }
+  
+  #startbtn,
+  #resetbtn {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: lightblue;
+    margin: 5px;
+  }
+  
+  #speed,
+  #algo,
+  #size {
+    margin: 10px;
+  }
+  
+  #menu {
+    margin-left: 20%;
+    padding: 20px;
+  }
+  
